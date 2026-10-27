@@ -1,0 +1,1 @@
+export const projectInfo = { slug:"bill-anomaly-detective", title:"Bill Anomaly Detective", summary:"A bill history that highlights unusual changes without guessing tariff rules.", scope:"bill-anomaly", locale:"en", direction:"ltr", firstTask:"Import monthly meter use and show transparent comparison.", entity:"bill-periods" } as const;
