@@ -8,4 +8,4 @@
 
 **Next:** Import monthly meter use and show transparent comparison.
 
-**Blockers:** GitHub connector cannot create repositories. Docker daemon and local cache need a live status check. Record exact checks and errors after every task.
+**Blocker:** GitHub returned “You have created too many repositories, too quickly. Please try again later” after creating the first public repositories. This project is committed locally with its intended origin; retry creation after the account throttle clears. Docker daemon and local npm-cache connectivity still need a live check.
