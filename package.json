@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
-    "start": "next start --hostname 0.0.0.0",
+    "start": "node .next/standalone/server.js",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "vitest run",
@@ -31,6 +31,6 @@
     "eslint-config-next": "16.4.3",
     "postcss": "^8.5.0",
     "typescript": "^5.9.3",
-    "vitest": "5.0.0"
+    "vitest": "5.0.5"
   }
 }

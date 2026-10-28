@@ -18,4 +18,6 @@ The technical shell exists; the product workflow does not. Build the first safe,
 
 ## Status
 
-Not started. Use insight/001-bill-anomaly. After acceptance passes, update progress and set the next task.
+In progress: added a synthetic-only local comparison prototype with month ordering, kWh validation, a transparent difference formula, review and deletion. Actual utility bill values are not supported because browser storage has no application-level protection, backup or recovery. No bill files, provider, tariff, account, address or cost are collected.
+
+Next: keep BILL-ANOMALY-001 active until safe local protection/recovery and consent requirements are designed. Then consider real bill-period import without inventing causes or tariff terms.

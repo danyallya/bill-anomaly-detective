@@ -3,7 +3,7 @@ FROM node:24.13.1-alpine AS base
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
 FROM base AS deps
-ARG NPM_REGISTRY=http://registry:4873/
+ARG NPM_REGISTRY=http://host.docker.internal:4873/
 COPY package.json package-lock.json* ./
 RUN --mount=type=cache,id=shared-idea-portfolio-npm,target=/root/.npm npm config set registry "$NPM_REGISTRY" && if [ -f package-lock.json ]; then npm ci; else npm install; fi
 FROM base AS builder
