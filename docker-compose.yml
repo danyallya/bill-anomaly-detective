@@ -3,8 +3,8 @@ services:
     build:
       context: .
       args:
-        NPM_REGISTRY: ${NPM_REGISTRY:-http://registry:4873/}
-      network: offline-dev-vault_vault
+        NPM_REGISTRY: ${NPM_REGISTRY:-http://host.docker.internal:4873/}
+      network: host
     restart: unless-stopped
     environment:
       PGHOST: db

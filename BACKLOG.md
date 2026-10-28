@@ -5,7 +5,7 @@ Prioritize user risk and evidence over polish. Estimates are focused engineering
 ## P0 — safe foundation
 
 - [ ] BILL-ANOMALY-001 — Import monthly meter use and show transparent comparison.
-- [ ] BILL-ANOMALY-002 — Validate bill-periods and add empty/error/deletion states.
+- [x] BILL-ANOMALY-002 — Validate bill-periods and add empty/error/deletion states.
 - [ ] BILL-ANOMALY-003 — Add PostgreSQL migrations and repository tests.
 - [ ] BILL-ANOMALY-004 — Specify offline conflicts, retry, duplicate-submit and recovery.
 
